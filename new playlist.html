@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple IPTV Player</title>
+  <style>
+    :root{--accent:#0b74de;--bg:#f7f9fc}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);color:#111}
+    .app{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+    .sidebar{background:#fff;border-right:1px solid #e6eef8;padding:12px;box-sizing:border-box;display:flex;flex-direction:column}
+    .header{font-weight:600;font-size:16px;margin-bottom:10px}
+    .playlist-form input{width:100%;padding:6px;margin-bottom:6px;border:1px solid #ddd;border-radius:6px}
+    .playlist-form button{width:100%;padding:8px;border-radius:6px;background:var(--accent);color:#fff;border:none;cursor:pointer}
+    .playlist-list{margin-top:10px;max-height:150px;overflow:auto;border-top:1px solid #eee;padding-top:8px}
+    .playlist-item{padding:6px;border-radius:6px;cursor:pointer;margin-bottom:6px;background:#f4f6fa;display:flex;justify-content:space-between;align-items:center}
+    .playlist-item:hover{background:#e9f1ff}
+    .search{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px;margin-top:8px}
+    .list{margin-top:8px;overflow:auto;max-height:calc(100vh - 300px)}
+    .item{display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;cursor:pointer;margin-bottom:6px}
+    .item:hover{background:#f2f7ff}
+    .item.active{background:linear-gradient(90deg,rgba(11,116,222,0.08),rgba(11,116,222,0.03));border-left:4px solid var(--accent);padding-left:6px}
+    .thumb{width:56px;height:36px;background:#eef;border-radius:4px;object-fit:cover}
+    .meta{flex:1;min-width:0}
+    .title{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .subtitle{font-size:12px;color:#666}
+    .player-wrap{padding:30px;display:flex;flex-direction:column;gap:20px}
+    video{width:100%;max-height:70vh;background:#000;border-radius:8px;outline:none;}
+    #video{width:75%;height:70vh;background:#000;border-radius:12px;}
+    .controls{display:flex;gap:8px;align-items:center;}
+    .btn{padding:8px 12px;border-radius:8px;border:1px solid #d0d7e6;background:#fff;cursor:pointer}
+    @media(max-width:800px){.app{grid-template-columns:1fr} .sidebar{order:2}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="header">📺 Playlist Manager</div>
+
+    <form id="playlistForm" class="playlist-form">
+      <input type="text" id="plName" placeholder="Playlist Name" required />
+      <input type="url" id="plUrl" placeholder="Playlist URL" required />
+      <button type="submit">Add Playlist</button>
+    </form>
+
+    <div id="playlistList" class="playlist-list"></div>
+
+    <input id="filter" class="search" placeholder="Search channels..." />
+    <div style="display:flex;gap:8px;margin-top:8px">
+      <button id="clearBtn" class="btn">Clear</button>
+    </div>
+      <!-- Favorite Filter Checkbox -->
+<label style="margin-top:10px;">
+  <input type="checkbox" id="showFav" /> Show Favorites Only
+</label>
+    <div id="list" class="list"></div>
+  </aside>
+
+  <main class="player-wrap">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <h2 id="nowTitle">No channel loaded</h2>
+      <div class="controls">
+        <button id="muteBtn" class="btn">Mute</button>
+        <button id="openBtn" class="btn">Open in new tab</button>
+      </div>
+    </div>
+
+    <video id="video" controls playsinline></video>
+    <div id="log" style="font-size:13px;color:#555"></div>
+  </main>
+</div>
+
+<script>
+(async function(){
+  const playlistForm = document.getElementById('playlistForm');
+  const plName = document.getElementById('plName');
+  const plUrl = document.getElementById('plUrl');
+  const playlistList = document.getElementById('playlistList');
+  const filterInput = document.getElementById('filter');
+  const listEl = document.getElementById('list');
+  const video = document.getElementById('video');
+  const nowTitle = document.getElementById('nowTitle');
+  const log = document.getElementById('log');
+  const muteBtn = document.getElementById('muteBtn');
+  const openBtn = document.getElementById('openBtn');
+  const clearBtn = document.getElementById('clearBtn');
+
+  let playlists = JSON.parse(localStorage.getItem("playlists") || "[]");
+  let favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+  let channels = [];
+  let hls = null;
+  let currentIndex = -1;
+  let editIndex = null;
+
+  function logMsg(txt){ log.textContent = txt; }
+
+  // Playlist Add/Edit
+  playlistForm.addEventListener('submit', e=>{
+    e.preventDefault();
+    const name = plName.value.trim();
+    const url  = plUrl.value.trim();
+    if(!name || !url) return;
+    if(editIndex !== null){
+      playlists[editIndex] = {name,url};
+      editIndex = null;
+    } else {
+      playlists.push({name,url});
+    }
+    localStorage.setItem("playlists", JSON.stringify(playlists));
+    renderPlaylists();
+    playlistForm.reset();
+  });
+
+  function renderPlaylists(){
+    playlistList.innerHTML = "";
+    playlists.forEach((pl,idx)=>{
+      const div = document.createElement('div');
+      div.className = "playlist-item";
+      const span = document.createElement('span');
+      span.textContent = pl.name;
+      span.style.flex="1";
+      span.onclick = ()=> loadPlaylistFromUrl(pl.url);
+
+      const editBtn = document.createElement('button');
+      editBtn.textContent = "Edit";
+      editBtn.onclick = (e)=>{
+        e.stopPropagation();
+        plName.value = pl.name;
+        plUrl.value = pl.url;
+        editIndex = idx;
+      };
+      const delBtn = document.createElement('button');
+      delBtn.textContent = "Del";
+      delBtn.onclick = (e)=>{
+        e.stopPropagation();
+        if(confirm("Delete this playlist?")){
+          playlists.splice(idx,1);
+          localStorage.setItem("playlists", JSON.stringify(playlists));
+          renderPlaylists();
+        }
+      };
+      div.appendChild(span);
+      div.appendChild(editBtn);
+      div.appendChild(delBtn);
+      playlistList.appendChild(div);
+    });
+  }
+
+  // Parse M3U
+  function parseM3U(text){
+    const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+    const items = [];
+    let i = 0;
+    while(i < lines.length){
+      const line = lines[i];
+      if(line.startsWith('#EXTINF')){
+        const meta = line;
+        const commaIdx = meta.indexOf(',');
+        const title = commaIdx >= 0 ? meta.slice(commaIdx+1).trim() : 'Unknown';
+        const tvgLogoMatch = meta.match(/tvg-logo="([^"]+)"/i);
+        const logo = tvgLogoMatch ? tvgLogoMatch[1] : null;
+        let j = i+1;
+        while(j < lines.length && lines[j].startsWith('#')) j++;
+        if(j < lines.length){
+          const url = lines[j];
+          items.push({title,logo,url,raw:meta});
+          i = j+1;
+        } else { i++; }
+      } else if(!line.startsWith('#') && (line.endsWith('.m3u8') || line.startsWith('http'))){
+        items.push({title: line, logo:null, url:line, raw: ''});
+        i++;
+      } else { i++; }
+    }
+    return items;
+  }
+
+  // Render Channel List with Favorite Button
+  function renderList(items){
+    listEl.innerHTML = '';
+    items.forEach((it, idx) => {
+      const div = document.createElement('div');
+      div.className = 'item';
+      div.dataset.idx = idx;
+
+      const favBtn = document.createElement('button');
+      favBtn.textContent = favorites.some(f=>f.url===it.url) ? "★" : "☆";
+      favBtn.onclick = (e)=>{
+        e.stopPropagation();
+        if(favorites.some(f=>f.url===it.url)){
+          favorites = favorites.filter(f=>f.url!==it.url);
+        } else {
+          favorites.push(it);
+        }
+        localStorage.setItem("favorites", JSON.stringify(favorites));
+        favBtn.textContent = favorites.some(f=>f.url===it.url) ? "★" : "☆";
+      };
+
+      div.innerHTML = `
+        <img class="thumb" src="${it.logo || 'data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;56&quot; height=&quot;36&quot;><rect width=&quot;100%&quot; height=&quot;100%25 fill=&quot;%23eef&quot;/></svg>'}" />
+        <div class="meta"><div class="title">${it.title}</div></div>
+      `;
+      div.appendChild(favBtn);
+      div.addEventListener('click', ()=> playIndex(idx));
+      listEl.appendChild(div);
+    });
+  }
+
+  // Load Playlist
+  async function loadPlaylistFromUrl(url){
+    logMsg('Loading playlist...');
+    try{
+      const res = await fetch(url);
+      if(!res.ok) throw new Error('Failed to fetch playlist: '+res.status);
+      const text = await res.text();
+      channels = parseM3U(text);
+      if(channels.length===0) logMsg('No channels found.');
+      else logMsg(channels.length + ' channels loaded.');
+      renderList(channels);
+    }catch(err){
+      logMsg('Error: '+err.message);
+      console.error(err);
+    }
+  }
+
+  // Play Channel
+  async function playIndex(idx){
+    if(idx < 0 || idx >= channels.length) return;
+    currentIndex = idx;
+    const ch = channels[idx];
+    nowTitle.textContent = ch.title;
+    Array.from(listEl.children).forEach(el => el.classList.toggle('active', parseInt(el.dataset.idx)===idx));
+
+    const src = ch.url;
+    if(hls){ hls.destroy(); hls = null; }
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+
+    if(video.canPlayType('application/vnd.apple.mpegurl')){
+      video.src = src;
+      try { await video.play(); logMsg('Playing (native)'); }
+      catch(e){ logMsg('Click Play to start'); }
+    } else if(window.Hls && Hls.isSupported()){
+      hls = new Hls();
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, () => {
+        hls.loadSource(src);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          video.play().then(()=> logMsg('Playing (Hls.js)')).catch(()=> logMsg('Click Play to start'));
+        });
+      });
+    } else {
+      video.src = src;
+      try { await video.play(); logMsg('Playing (fallback)'); }
+      catch(e){ logMsg('Cannot play stream'); }
+    }
+  }
+
+  // Search
+  filterInput.addEventListener('input', ()=> {
+    const q = filterInput.value.toLowerCase().trim();
+    const filtered = channels.filter(c => c.title.toLowerCase().includes(q));
+    renderList(filtered);
+  });
+
+  // Clear
+  clearBtn.addEventListener('click', ()=> {
+    filterInput.value = "";
+    listEl.innerHTML = "";
+    channels = [];
+    nowTitle.textContent = "No channel loaded";
+    logMsg("");
+    if(hls){ hls.destroy(); hls = null; }
+    video.pause(); video.removeAttribute('src'); video.load();
+  });
+
+  // Mute
+  muteBtn.addEventListener('click', ()=>{
+    video.muted = !video.muted;
+    muteBtn.textContent = video.muted ? 'Unmute' : 'Mute';
+  });
+
+<!--  // Open in new tab-->
+<!--  openBtn.addEventListener('click', ()=>{-->
+<!--    if(currentIndex<0) return alert("No stream selected");-->
+<!--    window.open(channels[currentIndex].url, "_blank");-->
+<!--  });-->
+
+  renderPlaylists();
+})();
+<!--    const showFav = document.getElementById('showFav');-->
+
+<!--// Update channel list view with favorite filter-->
+<!--function updateChannelView() {-->
+<!--  let filtered = channels;-->
+<!--  const q = filter.value.toLowerCase().trim();-->
+<!--  if(q) filtered = filtered.filter(c => c.title.toLowerCase().includes(q));-->
+<!--  if(showFav.checked) filtered = filtered.filter(c => favorites.some(f => f.url === c.url));-->
+<!--  renderList(filtered);-->
+<!--}-->
+
+<!--// Hook checkbox change-->
+<!--showFav.addEventListener('change', updateChannelView);-->
+
+<!--// Update search input event to respect favorite filter-->
+<!--filter.addEventListener('input', updateChannelView);-->
+
+
+    const showFav = document.getElementById('showFav');
+
+// নতুন ফাংশন: চ্যানেল লিস্ট আপডেট
+function updateChannelView() {
+  let filtered = channels;
+
+  // সার্চ ফিল্টার
+  const q = filterInput.value.toLowerCase().trim();
+  if(q) filtered = filtered.filter(c => c.title.toLowerCase().includes(q));
+
+  // favorite filter
+  if(showFav.checked) filtered = filtered.filter(c => favorites.some(f => f.url === c.url));
+
+  renderList(filtered);
+}
+
+// চেকবক্স onchange
+showFav.addEventListener('change', updateChannelView);
+
+// সার্চ ইনপুট onchange
+filterInput.addEventListener('input', updateChannelView);
+</script>
+</body>
+</html>

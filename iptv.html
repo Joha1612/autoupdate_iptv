@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Simple IPTV Player</title>
+  <style>
+    :root{--accent:#0b74de;--bg:#f7f9fc}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);color:#111}
+    .app{display:grid;grid-template-columns:320px 1fr;min-height:100vh}
+    .sidebar{background:#fff;border-right:1px solid #e6eef8;padding:12px;box-sizing:border-box}
+    .header{display:flex;align-items:center;gap:8px;padding:8px 12px}
+    .search{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px}
+    .list{margin-top:8px;overflow:auto;max-height:calc(100vh - 140px)}
+    .item{display:flex;gap:10px;align-items:center;padding:8px;border-radius:8px;cursor:pointer;margin-bottom:6px}
+    .item:hover{background:#f2f7ff}
+    .item.active{background:linear-gradient(90deg,rgba(11,116,222,0.08),rgba(11,116,222,0.03));border-left:4px solid var(--accent);padding-left:6px}
+    .thumb{width:56px;height:36px;background:#eef;border-radius:4px;object-fit:cover}
+    .meta{flex:1;min-width:0}
+    .title{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+    .subtitle{font-size:12px;color:#666}
+    .player-wrap{padding:50px;display:flex;flex-direction:column;gap:20px}
+    video{width:100%;max-height:70vh;background:#000;border-radius:8px;outline: none;}
+    #video {
+    width: 80%;
+    height: 70vh;       /* আগে যদি 60vh থাকে, এটা 70vh করুন */
+    background: #000;   /* কালো ব্যাকগ্রাউন্ড */
+    border-radius: 12px; /* চাইলে গোলাকার কোণা */
+    }
+    .controls{display:flex;gap:8px;align-items:center;}
+    .btn{padding:8px 12px;border-radius:8px;border:1px solid #d0d7e6;background:#fff;cursor:pointer}
+    @media(max-width:800px){.app{grid-template-columns:1fr} .sidebar{order:2}}
+  </style>
+  <!-- hls.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="header">
+        <strong>IPTV Channels</strong>
+      </div>
+      <input id="playlistUrl" class="search" placeholder="M3U/M3U8 playlist URL" />
+      <div style="display:flex;gap:8px;margin-top:8px">
+        <button id="loadBtn" class="btn">Load</button>
+        <button id="clearBtn" class="btn">Clear</button>
+      </div>
+
+      <input id="filter" class="search" style="margin-top:10px" placeholder="Search channels..." />
+
+      <div id="list" class="list"></div>
+    </aside>
+
+    <main class="player-wrap">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h2 id="nowTitle">No channel loaded</h2>
+        <div class="controls">
+          <button id="muteBtn" class="btn">Mute</button>
+          <button id="openBtn" class="btn">Open in new tab</button>
+        </div>
+      </div>
+
+      <video id="video" controls playsinline></video>
+      <div id="log" style="font-size:13px;color:#555"></div>
+    </main>
+  </div>
+
+<script>
+(async function(){
+  const loadBtn = document.getElementById('loadBtn');
+  const clearBtn = document.getElementById('clearBtn');
+  const playlistInput = document.getElementById('playlistUrl');
+  const listEl = document.getElementById('list');
+  const filterInput = document.getElementById('filter');
+  const video = document.getElementById('video');
+  const nowTitle = document.getElementById('nowTitle');
+  const log = document.getElementById('log');
+  const muteBtn = document.getElementById('muteBtn');
+  const openBtn = document.getElementById('openBtn');
+
+  let channels = [];
+  let hls = null;
+  let currentIndex = -1;
+
+  function logMsg(txt){ log.textContent = txt; }
+
+  // parse M3U8/M3U content
+  function parseM3U(text){
+    const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+    const items = [];
+    let i = 0;
+    while(i < lines.length){
+      const line = lines[i];
+      if(line.startsWith('#EXTINF')){
+        const meta = line;
+        const commaIdx = meta.indexOf(',');
+        const title = commaIdx >= 0 ? meta.slice(commaIdx+1).trim() : 'Unknown';
+        const tvgLogoMatch = meta.match(/tvg-logo="([^"]+)"/i);
+        const logo = tvgLogoMatch ? tvgLogoMatch[1] : null;
+        let j = i+1;
+        while(j < lines.length && lines[j].startsWith('#')) j++;
+        if(j < lines.length){
+          const url = lines[j];
+          items.push({title,logo,url,raw:meta});
+          i = j+1;
+        } else { i++; }
+      } else if(!line.startsWith('#') && (line.endsWith('.m3u8') || line.startsWith('http'))){
+        items.push({title: line, logo:null, url:line, raw: ''});
+        i++;
+      } else {
+        i++;
+      }
+    }
+    return items;
+  }
+
+  function renderList(items){
+    listEl.innerHTML = '';
+    items.forEach((it, idx) => {
+      const div = document.createElement('div');
+      div.className = 'item';
+      div.dataset.idx = idx;
+      div.innerHTML = `
+        <img class="thumb" src="${it.logo || 'data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;56&quot; height=&quot;36&quot;><rect width=&quot;100%&quot; height=&quot;100%&quot; fill=&quot;%23eef&quot;/></svg>'}" onerror="this.style.display='none'"/>
+        <div class="meta">
+          <div class="title">${escapeHtml(it.title)}</div>
+<!--          <div class="subtitle">${shorten(it.url,60)}</div>-->
+        </div>
+      `;
+      div.addEventListener('click', ()=> playIndex(parseInt(div.dataset.idx)));
+      listEl.appendChild(div);
+    });
+  }
+
+  function shorten(s,n){ if(!s) return ''; return s.length>n? s.slice(0,n-3)+'...': s; }
+  function escapeHtml(s){ return String(s).replace(/[&<>"']/g, c=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' })[c]); }
+
+  function setActive(idx){
+    Array.from(listEl.children).forEach(el => el.classList.toggle('active', parseInt(el.dataset.idx)===idx));
+  }
+
+<!--  async function loadPlaylistFromUrl(url){-->
+<!--    logMsg('Loading playlist...');-->
+<!--    try{-->
+<!--      const res = await fetch(url);-->
+<!--      if(!res.ok) throw new Error('Failed to fetch playlist: '+res.status);-->
+<!--      const text = await res.text();-->
+<!--      channels = parseM3U(text);-->
+<!--      if(channels.length===0) logMsg('No channels found in playlist.');-->
+<!--      else logMsg(channels.length + ' channels loaded.');-->
+<!--      renderList(channels);-->
+<!--    }catch(err){-->
+<!--      logMsg('Error: '+err.message + ' — if CORS error, use a server proxy.');-->
+<!--      console.error(err);-->
+<!--    }-->
+<!--  }-->
+ async function loadPlaylistFromUrl(url){
+  logMsg('Loading playlist...');
+  loadBtn.disabled = true;
+  loadBtn.textContent = "Loading... ⏳";   // লোডিং সময় টেক্সট পরিবর্তন
+
+  try{
+    const res = await fetch(url);
+    if(!res.ok) throw new Error('Failed to fetch playlist: '+res.status);
+    const text = await res.text();
+    channels = parseM3U(text);
+    if(channels.length===0) logMsg('No channels found in playlist.');
+    else logMsg(channels.length + ' channels loaded.');
+    renderList(channels);
+  }catch(err){
+    logMsg('Error: '+err.message + ' — if CORS error, use a server proxy.');
+    console.error(err);
+  }finally{
+    loadBtn.disabled = false;
+    loadBtn.textContent = "Load";   // আবার আগের অবস্থায় ফেরত
+  }
+}
+
+
+  async function playIndex(idx){
+    if(idx < 0 || idx >= channels.length) return;
+    currentIndex = idx;
+    const ch = channels[idx];
+    nowTitle.textContent = ch.title;
+    setActive(idx);
+
+    const src = ch.url;
+    if(hls){ hls.destroy(); hls = null; }
+    video.pause();
+    video.removeAttribute('src');
+    video.load();
+
+    if(video.canPlayType('application/vnd.apple.mpegurl')){
+      video.src = src;
+      try { await video.play(); logMsg('Playing (native)'); }
+      catch(e){ logMsg('Playback prevented by browser'); }
+    } else if(window.Hls && Hls.isSupported()){
+      hls = new Hls();
+      hls.attachMedia(video);
+      hls.on(Hls.Events.MEDIA_ATTACHED, () => {
+        hls.loadSource(src);
+        hls.on(Hls.Events.MANIFEST_PARSED, () => {
+          video.play().then(()=> logMsg('Playing (Hls.js)')).catch(()=> logMsg('Click play to start'));
+        });
+      });
+      hls.on(Hls.Events.ERROR, (event, data) => {
+        console.error(data);
+        logMsg('Stream error: ' + (data && data.details ? data.details : JSON.stringify(data)));
+      });
+    } else {
+      video.src = src;
+      try { await video.play(); logMsg('Playing (fallback)'); } catch(e){ logMsg('Cannot play stream'); }
+    }
+  }
+
+  loadBtn.addEventListener('click', ()=> {
+    const u = playlistInput.value.trim();
+    if(!u){ alert('Please paste playlist URL'); return; }
+    loadPlaylistFromUrl(u);
+  });
+
+  clearBtn.addEventListener('click', ()=> {
+    playlistInput.value = '';
+    filterInput.value = '';
+    listEl.innerHTML = '';
+    channels = [];
+    nowTitle.textContent = 'No channel loaded';
+    logMsg('');
+    if(hls){ hls.destroy(); hls = null; }
+    video.pause(); video.removeAttribute('src'); video.load();
+  });
+
+  filterInput.addEventListener('input', ()=> {
+    const q = filterInput.value.toLowerCase().trim();
+    const filtered = channels.filter(c => c.title.toLowerCase().includes(q) || (c.url || '').toLowerCase().includes(q));
+    renderList(filtered);
+  });
+
+<!--  openBtn.addEventListener('click', ()=> {-->
+<!--    if(currentIndex<0) return alert('No stream selected');-->
+<!--    window.open(channels[currentIndex].url, '_blank');-->
+<!--  });-->
+
+  muteBtn.addEventListener('click', ()=> {
+    video.muted = !video.muted;
+    muteBtn.textContent = video.muted ? 'Unmute' : 'Mute';
+  });
+
+  // --- Default load with your playlist ---
+  const defaultUrl = "https://raw.githubusercontent.com/alex4528/fancode/main/fc.m3u";
+  playlistInput.value = defaultUrl;
+  loadPlaylistFromUrl(defaultUrl);
+
+})();
+</script>
+</body>
+</html>
