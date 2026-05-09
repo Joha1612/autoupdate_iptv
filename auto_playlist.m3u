@@ -738,3 +738,67 @@ https://pul-tenm.nbs3g.com/live/sd-1-4355852.m3u8?txSecret=268640b3db5c146ea0525
 #EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="LaLiga 2",SKY BUNDESLIGA SD ,(AD Ceuta vs CD Castellón)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="ELEVEN SPORTS" tvg-name="ELEVEN SPORTS" group-title="LaLiga 2",ELEVEN SPORTS ,(Burgos vs Almería)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6412/index.mpd
+
+#EXTINF:-1 tvg-id="BUNDESLIGA HD [ENG]" tvg-name="BUNDESLIGA HD [ENG]" group-title="LaLiga 2",BUNDESLIGA HD [ENG] ,(Burgos vs Almería)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://livecdn-bp-livestream.rumsport7.live/stream/27/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=9782805c5c1c79d7a193a5a88d006afd&x-time=1778256480
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 2",SportzX Live ,(Burgos vs Almería)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://pul-tenm.nbs3g.com/live/sd-1-4355854.m3u8?txSecret=1c4265c96a232ae4878c29f3dd27dee7&txTime=69FF5D4F
+
+#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="LaLiga 2",SKY BUNDESLIGA SD ,(Burgos vs Almería)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 2",SportzX Live ,(Real Valladolid vs Real Zaragoza)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.vivo200.com/live/sd-1-4344751.m3u8?txSecret=634bbd47f9396006ae2287790d849e72&txTime=69F7859B|Referer=https://player.787200.com/
+
+#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="LaLiga 2",ESPN NL ,(Real Valladolid vs Real Zaragoza)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="LaLiga 2",SportDigital Fussball ,(Málaga vs Sporting Gijón)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="LaLiga 2",ESPN NL ,(Málaga vs Sporting Gijón)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="2. Bundesliga",ESPN NL ,(Braunschweig vs Dynamo Dresden)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Bochum vs Hannover 96)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.vivo200.com/live/sd-1-4366099.m3u8?txSecret=af6bad8225144716a950cc1c553e9a63&txTime=69F7C424|Referer=https://player.787200.com/
+
+#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Bochum vs Hannover 96)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil1/ligtv2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Holstein Kiel vs Magdeburg)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.vivo200.com/live/sd-1-4366170.m3u8?txSecret=cfcf5234e2b9e6a7f6c0dbf6f03e2412&txTime=69F7C3D9|Referer=https://player.787200.com/
+
+#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Holstein Kiel vs Magdeburg)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil1/ligtv3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Nürnberg vs Schalke)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.vivo200.com/live/sd-1-4366152.m3u8?txSecret=84a4537987803c00ab4b71361cc86ca8&txTime=69F7C454|Referer=https://player.787200.com/
+
+#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Nürnberg vs Schalke)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
