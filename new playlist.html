@@ -328,6 +328,33 @@ showFav.addEventListener('change', updateChannelView);
 
 // সার্চ ইনপুট onchange
 filterInput.addEventListener('input', updateChannelView);
+
+  function parseM3U(text){
+  const lines = text.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);
+  const items = [];
+  let i = 0;
+  while(i < lines.length){
+    const line = lines[i];
+
+    // EXTINF লাইনের পরে .m3u8 URL খুঁজে নাও
+    if(line.startsWith('#EXTINF')){
+      const commaIdx = line.indexOf(',');
+      const title = commaIdx >= 0 ? line.slice(commaIdx+1).trim() : 'Unknown';
+      let j = i+1;
+      // Skip সব custom ট্যাগ
+      while(j < lines.length && lines[j].startsWith('#')) j++;
+
+      if(j < lines.length && lines[j].startsWith('http') && lines[j].endsWith('.m3u8')){
+        items.push({title, logo:null, url: lines[j], raw: line});
+      }
+      i = j+1;
+    } else {
+      i++;
+    }
+  }
+  return items;
+}
+
 </script>
 </body>
 </html>
