@@ -425,38 +425,6 @@ https://livecdn-bp-iptv.rumsport7.live/live_abr/161357_hd/index.m3u8?is_vip=fals
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://pul-tenm.nbs3g.com/live/sd-1-4404676.m3u8?txSecret=3c83e6b69da972b024662e12ac1f5d2c&txTime=69FE242E
 
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(Arizona Diamondbacks vs New York Mets)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50269/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(Arizona Diamondbacks vs New York Mets)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(San Diego Padres vs Cardinals)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50271/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(San Diego Padres vs Cardinals)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(Los Angeles Dodgers vs Atlanta Braves)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50274/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX LIVE" tvg-name="SportzX LIVE" group-title="MLB",SportzX LIVE ,(Los Angeles Dodgers vs Atlanta Braves)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mainstreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(San Francisco Giants vs Pittsburgh Pirates)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50276/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(San Francisco Giants vs Pittsburgh Pirates)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edgestreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
 #EXTINF:-1 tvg-id="TNT SPORTS FHD" tvg-name="TNT SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",TNT SPORTS FHD ,(Liverpool vs Chelsea)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
