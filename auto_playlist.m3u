@@ -245,17 +245,17 @@ https://27lftgqlgzmy.windows-devs.top/AccessLog2/83_FHD/apache.m3u8|Referer=http
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://27lftgqlgzmy.windows-devs.top/AccessLog2/108087_HD/apache.m3u8|Referer=https://27lftgqlgzmy.windows-devs.top/
 
-#EXTINF:-1 tvg-id="Willow [Ad-Free]" tvg-name="Willow [Ad-Free]" group-title="Cricket",Willow [Ad-Free] ,(Bangladesh vs Pakistan)
+#EXTINF:-1 tvg-id="WILLOW [Ad-Free]" tvg-name="WILLOW [Ad-Free]" group-title="Cricket",WILLOW [Ad-Free] ,(Bangladesh vs Pakistan)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=fc4baaceff24386758d4fa5029c0f20a:d8cabe7f21ce9d6e83d7780f374abd5f
+#KODIPROP:inputstream.adaptive.license_key=2d32bd4f3fc167ecb264eae96fa6b42d:66646c6ddedaeef0e7d0815e0d92340a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/is0vmlzfsu/out/v1/d9f9e2edcb7b42e9814b3af8dccf9c40/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/dobtojl5yj/out/v1/55199f766e1a482fb2ac3eea129e3b71/cenc.mpd
 
 #EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="Cricket",PREMIER SPORTS ,(Bangladesh vs Pakistan)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
 
 #EXTINF:-1 tvg-id="FANCODE FHD" tvg-name="FANCODE FHD" group-title="Cricket",FANCODE FHD ,(Bangladesh vs Pakistan)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -269,9 +269,9 @@ https://chat.cfbu247.sbs/api/proxy/playlist?token=eyJyZWZlcmVyIjoiaHR0cHM6Ly9kb2
 
 #EXTINF:-1 tvg-id="Willow HD" tvg-name="Willow HD" group-title="Cricket",Willow HD ,(Bangladesh vs Pakistan)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247
+#KODIPROP:inputstream.adaptive.license_key=9dfee37194f68ca94d9a06fe879d1f0a:7a0a9c76b8db3d68c8e14eb8adddf57a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash-sd/enc/ru4woldmqp/out/v1/456eecd2fcbb40938843c4721ee305f7/cenc-sd.mpd
 
 #EXTINF:-1 tvg-id="FANCODE - SD" tvg-name="FANCODE - SD" group-title="Cricket",FANCODE - SD ,(Bangladesh vs Pakistan)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -283,522 +283,508 @@ https://abfjk4haaaaaaaampv6ofhkihi4r6.bia-cf.live.pv-cdn.net/iad-nitro/live/clie
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://datahub11.com/live/gGFotsfxZm/mundane2basis/1856.ts
 
-#EXTINF:-1 tvg-id="PRIME VIDEO" tvg-name="PRIME VIDEO" group-title="Indian Premier League",PRIME VIDEO ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="PRIME VIDEO" tvg-name="PRIME VIDEO" group-title="Indian Premier League",PRIME VIDEO ,(Chennai Super Kings vs Lucknow Super Giants)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=470a5bda0ae8965c3ab4004c302bc1c8:b04888df6ed570c9435b97471504bd9b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ptptpteoh7/out/v1/564bb083afea4561a5a60c4447258379/cenc.mpd
 
-#EXTINF:-1 tvg-id="WILLOW [Ad Free]" tvg-name="WILLOW [Ad Free]" group-title="Indian Premier League",WILLOW [Ad Free] ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="WILLOW [Ad Free]" tvg-name="WILLOW [Ad Free]" group-title="Indian Premier League",WILLOW [Ad Free] ,(Chennai Super Kings vs Lucknow Super Giants)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=2d0646dd8a8c511de3b2485071705038:1ddbda2f121875fd43dcd758497cbf82
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a96aivottlinear-a.akamaihd.net/OTTB/iad-nitro/enc/7j8yftutgs/out/v1/8a40608178f045839a1c0c0a055d6a90/cenc.mpd
 
-#EXTINF:-1 tvg-id="PRIME HINDI" tvg-name="PRIME HINDI" group-title="Indian Premier League",PRIME HINDI ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="PRIME HINDI" tvg-name="PRIME HINDI" group-title="Indian Premier League",PRIME HINDI ,(Chennai Super Kings vs Lucknow Super Giants)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=9909e33838e1152cc512c4636f513f8f:02f67060c94bcc3307280f505ad508ab
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://otte.cache.aiv-cdn.net/fra-nitro/live/clients/dash/enc/nn1qrdjaha/out/v1/bc4fa7d9cebf47858bebf14ad589025e/cenc.mpd
 
-#EXTINF:-1 tvg-id="SKY SPORTS - AQ" tvg-name="SKY SPORTS - AQ" group-title="Indian Premier League",SKY SPORTS - AQ ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="SKY SPORTS - AQ" tvg-name="SKY SPORTS - AQ" group-title="Indian Premier League",SKY SPORTS - AQ ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://bl.rutube.ru/livestream/9585fdae92af45f113fdcc9f6c4ba442/index.m3u8?s=KgZtccuHrnaljGaN7cmUwA&e=2068506973&scheme=https
 
-#EXTINF:-1 tvg-id="PTV Sports" tvg-name="PTV Sports" group-title="Indian Premier League",PTV Sports ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="PTV Sports" tvg-name="PTV Sports" group-title="Indian Premier League",PTV Sports ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://customer-jfpjrgh1mi5y63cd.cloudflarestream.com/57c9fd581995339676bb330a024502e2/manifest/stream_t9e72c8d63ef150818cea65aca509f8bd_r1479738631.m3u8?llhlsHBs=0.9
 
-#EXTINF:-1 tvg-id="S©portzX Live" tvg-name="S©portzX Live" group-title="Indian Premier League",S©portzX Live ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="S©portzX Live" tvg-name="S©portzX Live" group-title="Indian Premier League",S©portzX Live ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://sfsfs.valverdeae7.workers.dev/live.m3u8|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:148.0) Gecko/20100101 Firefox/148.0&Referer=https://matcheslinkz.pages.dev/&origin=https://matcheslinkz.pages.dev
 
-#EXTINF:-1 tvg-id="JIO HOTSTAR" tvg-name="JIO HOTSTAR" group-title="Indian Premier League",JIO HOTSTAR ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="JIO HOTSTAR" tvg-name="JIO HOTSTAR" group-title="Indian Premier League",JIO HOTSTAR ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live-pull.aisports.mobi/moviebox/device01/playlist.m3u8|Referer=https://sportslivenow.top/
 
-#EXTINF:-1 tvg-id="WILLOW HD" tvg-name="WILLOW HD" group-title="Indian Premier League",WILLOW HD ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="WILLOW HD" tvg-name="WILLOW HD" group-title="Indian Premier League",WILLOW HD ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://cdn16348712.blazingcdn.net/dx14fhd/index.m3u8|Referer=https://yahoo.com/&Origin=https://yahoo.com&User-Agent=AppleCoreMedia/1.0.0.23D5103d (iPhone; U; CPU OS 26_3 like Mac OS X; en_us)
 
-#EXTINF:-1 tvg-id="Star Sports [HIN]" tvg-name="Star Sports [HIN]" group-title="Indian Premier League",Star Sports [HIN] ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="Star Sports [HIN]" tvg-name="Star Sports [HIN]" group-title="Indian Premier League",Star Sports [HIN] ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 http://103.229.254.25:7001/play/a0a0/index.m3u8
 
-#EXTINF:-1 tvg-id="STAR ENG - IN" tvg-name="STAR ENG - IN" group-title="Indian Premier League",STAR ENG - IN ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="STAR ENG - IN" tvg-name="STAR ENG - IN" group-title="Indian Premier League",STAR ENG - IN ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=965dc2ddb1d85138ad787999a7f30ca5:859695076e67fe961836b564db6d689c|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343
 
-#EXTINF:-1 tvg-id="STAR HIN - IN" tvg-name="STAR HIN - IN" group-title="Indian Premier League",STAR HIN - IN ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="STAR HIN - IN" tvg-name="STAR HIN - IN" group-title="Indian Premier League",STAR HIN - IN ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_HD1_Hindi_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=400131994b445d8c8817202248760fda:2d56cb6f07a75b9aff165d534ae2bfc4|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343
 
-#EXTINF:-1 tvg-id="STAR TAM - IN" tvg-name="STAR TAM - IN" group-title="Indian Premier League",STAR TAM - IN ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="STAR TAM - IN" tvg-name="STAR TAM - IN" group-title="Indian Premier League",STAR TAM - IN ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Tamil_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=2272c0bc6b2e5cb090b1f55996e0026c:943923934de1d5536ab01c67fca8b337|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343
 
-#EXTINF:-1 tvg-id="STAR TEL - IN" tvg-name="STAR TEL - IN" group-title="Indian Premier League",STAR TEL - IN ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="STAR TEL - IN" tvg-name="STAR TEL - IN" group-title="Indian Premier League",STAR TEL - IN ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Telugu_HD_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=49e84b9edfd85379b90c81b7d2d3d2bf:19c82d3ff094fa06af95820a1572ecb5|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343
 
-#EXTINF:-1 tvg-id="STAR KAN - IN" tvg-name="STAR KAN - IN" group-title="Indian Premier League",STAR KAN - IN ,(Rajasthan Royals vs Gujarat Titans)
+#EXTINF:-1 tvg-id="STAR KAN - IN" tvg-name="STAR KAN - IN" group-title="Indian Premier League",STAR KAN - IN ,(Chennai Super Kings vs Lucknow Super Giants)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Sports_1_Kannada_BTS/output/index.mpd?__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343|drmScheme=com.clearkey.alpha&drmLicense=9a6d058fa40b5460a946178900eb44cb:791d7444110cec32d731ca0c33ac6c15|user-agent=JioTV.Plus/2.1.9_2027 (Linux;Android 13) AndroidXMedia3/1.4.0&cookie=__hdnea__=st=1772692216~exp=1772778616~acl=/*~hmac=d91b97fddea1ccde2329a99c4a436354628a82ca1b618b94f1b90ef0e2131343
 
-#EXTINF:-1 tvg-id="TSN SPORTS FHD" tvg-name="TSN SPORTS FHD" group-title="NBA",TSN SPORTS FHD ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="WILLOW [Ad-Free]" tvg-name="WILLOW [Ad-Free]" group-title="Indian Premier League",WILLOW [Ad-Free] ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689
+#KODIPROP:inputstream.adaptive.license_key=82eabe094566556d22f1708a1b466113:8ea1e0002435567dd51ef8c848f65bbe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd
+https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/adb04xbxx2/out/v1/cc995fdb08e045308b91b144b3acc5a6/cenc.mpd
 
-#EXTINF:-1 tvg-id="SportzX NBA" tvg-name="SportzX NBA" group-title="NBA",SportzX NBA ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="CRICBUZZ HIN" tvg-name="CRICBUZZ HIN" group-title="Indian Premier League",CRICBUZZ HIN ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50266/load-playlist?|Referer=https://gooz.aapmains.net
+https://livevideos.cricbuzz.com/hls/live/2123516/WCB-US-HINDI/9241/152009/master.m3u8?hdntl=exp=1777895597~acl=%2f*~id=qa.team%40cricbuzz.com~data=hdntl,flavour%3aCB,matchId%3a65907,country%3aUS~hmac=b6997764845c66b647d773d5bb011f254e8ec632ae6bc24be538b0c873239776|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-id="NBA LIVE FHD" tvg-name="NBA LIVE FHD" group-title="NBA",NBA LIVE FHD ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="CRICBUZZ ENG" tvg-name="CRICBUZZ ENG" group-title="Indian Premier League",CRICBUZZ ENG ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://nb2.bpfiles.cfd/live/timber/stream.m3u8
+https://livevideos.cricbuzz.com/hls/live/2123398/WCB-CA/9241/152009/master.m3u8?hdntl=exp=1777895597~acl=%2f*~id=qa.team%40cricbuzz.com~data=hdntl,flavour%3aCB,matchId%3a65907,country%3aUS~hmac=b6997764845c66b647d773d5bb011f254e8ec632ae6bc24be538b0c873239776|User-Agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36
 
-#EXTINF:-1 tvg-id="SPX LIVE HD" tvg-name="SPX LIVE HD" group-title="NBA",SPX LIVE HD ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="FOX CRICKET" tvg-name="FOX CRICKET" group-title="Indian Premier League",FOX CRICKET ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/hd-en-2-3918855.m3u8?txSecret=08342df6047b9a3676afdb797fd38025&txTime=69FFE44B
+https://hghndasw.dg7yhiudjydg.shop/sec/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHJlYW0iOiJmb3gtc3BvcnRzLTUwMSIsImV4cCI6MTc3NzgzODQ3NH0.9WlORCa8PboayG8yh9Rm1a6unfy4bDyP0U8wRSGYpk4/fox-sports-501.m3u8
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="NBA",SportzX Live ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="WILLOW HINDI" tvg-name="WILLOW HINDI" group-title="Indian Premier League",WILLOW HINDI ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://mainstreams.pro/hls/wfazgsqtrezu66.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online&user-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36
+http://datahub11.com:80/live/Jen12345/Jen54321/703300.ts
 
-#EXTINF:-1 tvg-id="HD SERVER" tvg-name="HD SERVER" group-title="NBA",HD SERVER ,(Minnesota Timberwolves vs San Antonio Spurs)
+#EXTINF:-1 tvg-id="SD SERVER" tvg-name="SD SERVER" group-title="Indian Premier League",SD SERVER ,(Royal Challengers Bengaluru vs Mumbai Indians)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/US/NBA2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+http://195.178.110.76/hls/ZDDDZQQ.m3u8|Referer=http://www.fawanews.sc/
 
-#EXTINF:-1 tvg-id="SD SERVER" tvg-name="SD SERVER" group-title="NBA",SD SERVER ,(Minnesota Timberwolves vs San Antonio Spurs)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-http://193.47.62.192/hls/waaax.m3u8|Referer=http://www.fawanews.sc/
-
-#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Pro League 🇸🇦",THMANYAH HD ,(Al-Khaleej vs Al-Ettifaq)
+#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Pro League 🇸🇦",THMANYAH HD ,(Al-Riyadh vs Al-Fateh)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD1403/index.mpd
+https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Pro League 🇸🇦",SportzX Live ,(Al-Khaleej vs Al-Ettifaq)
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Pro League 🇸🇦",SportzX Live ,(Al-Riyadh vs Al-Fateh)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.vivo200.com/live/sd-1-4404635.m3u8?txSecret=d9d81d8ee9e0acb26122618ba6852360&txTime=69F8FC8D|Referer=https://player.787200.com/
+https://pul-tenm.nbs3g.com/live/sd-1-4404684.m3u8?txSecret=6ddea009ccf715313b777e53c95d6a36&txTime=6A00A83B
 
-#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Pro League 🇸🇦",THMANYAH HD ,(Al-Najma SC vs Al-Hazem)
+#EXTINF:-1 tvg-id="FOX DEPORTES" tvg-name="FOX DEPORTES" group-title="Pro League 🇸🇦",FOX DEPORTES ,(Al-Ittihad vs Damac FC)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+
+#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Pro League 🇸🇦",THMANYAH HD ,(Al-Ittihad vs Damac FC)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://d1yi40sjj0ca0v.cloudfront.net/TVD6737/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Pro League 🇸🇦",SportzX Live ,(Al-Najma SC vs Al-Hazem)
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(Arizona Diamondbacks vs New York Mets)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/sd-1-4404657.m3u8?txSecret=e4dd3abd525413406f4dea00bb363a9d&txTime=69FA2FA9
+https://edgestreams.pro/hls/dzjhkfazbka26.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 
-#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="Pro League 🇸🇦",SportDigital Fussball ,(Al-Fayha vs Al-Qadsiah)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(San Diego Padres vs St. Louis Cardinals)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+https://edgestreams.pro/hls/jzabfazkbf27.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 
-#EXTINF:-1 tvg-id="FOX DEPORTES" tvg-name="FOX DEPORTES" group-title="Pro League 🇸🇦",FOX DEPORTES ,(Al-Fayha vs Al-Qadsiah)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
+#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(San Francisco Giants vs Pittsburgh Pirates)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
+https://chatgpt.hereisman.net/playlist/50349/load-playlist?|Referer=https://gooz.aapmains.net
 
-#EXTINF:-1 tvg-id="FOX SOCCER+ HD" tvg-name="FOX SOCCER+ HD" group-title="Pro League 🇸🇦",FOX SOCCER+ HD ,(Al-Fayha vs Al-Qadsiah)
+#EXTINF:-1 tvg-id="SportzX LIVE" tvg-name="SportzX LIVE" group-title="MLB",SportzX LIVE ,(San Francisco Giants vs Pittsburgh Pirates)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50198/load-playlist?|Referer=https://gooz.aapmains.net
+https://edgestreams.pro/hls/hefbafbakx28.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 
-#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Pro League 🇸🇦",THMANYAH HD ,(Al-Fayha vs Al-Qadsiah)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="MLB",SportzX MLB ,(Los Angeles Dodgers vs Atlanta Braves)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd
+https://chatgpt.hereisman.net/playlist/50350/load-playlist?|Referer=https://gooz.aapmains.net
 
-#EXTINF:-1 tvg-id="Sport TV HD" tvg-name="Sport TV HD" group-title="Pro League 🇸🇦",Sport TV HD ,(Al-Fayha vs Al-Qadsiah)
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="MLB",SportzX Live ,(Los Angeles Dodgers vs Atlanta Braves)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://livecdn-bp-iptv.rumsport7.live/live_abr/161357_hd/index.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=25ff2bba07fac3b59b46518c7f98a4e0&x-time=1778176620
+https://edge2caster.pro/hls/hfzljfahzcax29.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Pro League 🇸🇦",SportzX Live ,(Al-Fayha vs Al-Qadsiah)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/sd-1-4404676.m3u8?txSecret=3c83e6b69da972b024662e12ac1f5d2c&txTime=69FE242E
-
-#EXTINF:-1 tvg-id="TNT SPORTS FHD" tvg-name="TNT SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",TNT SPORTS FHD ,(Liverpool vs Chelsea)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
-
-#EXTINF:-1 tvg-id="SKY SPORTS FHD" tvg-name="SKY SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",SKY SPORTS FHD ,(Liverpool vs Chelsea)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dice-live-oc.akamaized.net/hdntl=exp=1778363892~acl=%2F*~id=2cd8004e-7ae0-43d1-9805-76bc88479344~data=hdntl,aXA9MTA4LjE4MS4zLjE0OSZleHA9MTc3ODI3NzUyMiZlaWQ9OTM5NjY2Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=917885330f3ece39a3194b2812ca7c0e8cc1c93bfcda87409969c0dd45a3c026/dash/live/2093712/219035-321027/manifest-d.mpd
-
-#EXTINF:-1 tvg-id="FUBO SPORTS" tvg-name="FUBO SPORTS" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",FUBO SPORTS ,(Liverpool vs Chelsea)
+#EXTINF:-1 tvg-id="FUBO SPORTS FHD" tvg-name="FUBO SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",FUBO SPORTS FHD ,(West Ham United vs Arsenal)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 
-#EXTINF:-1 tvg-id="NOVA SPORTS PL" tvg-name="NOVA SPORTS PL" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",NOVA SPORTS PL ,(Liverpool vs Chelsea)
+#EXTINF:-1 tvg-id="TELEMUNDO FHD" tvg-name="TELEMUNDO FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",TELEMUNDO FHD ,(West Ham United vs Arsenal)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd
+
+#EXTINF:-1 tvg-id="NOVA SPORTS PL" tvg-name="NOVA SPORTS PL" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",NOVA SPORTS PL ,(West Ham United vs Arsenal)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd
 
-#EXTINF:-1 tvg-id="HUB PREMIER HD" tvg-name="HUB PREMIER HD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",HUB PREMIER HD ,(Liverpool vs Chelsea)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn-1.ttvb.eu.org/api/Hub-Premier-2/index.m3u8
-
-#EXTINF:-1 tvg-id="SKY SPORTS FHD" tvg-name="SKY SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",SKY SPORTS FHD ,(Sunderland vs Manchester United)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dice-live-oc.akamaized.net/hdntl=exp=1778363892~acl=%2F*~id=2cd8004e-7ae0-43d1-9805-76bc88479344~data=hdntl,aXA9MTA4LjE4MS4zLjE0OSZleHA9MTc3ODI3NzUyMiZlaWQ9OTM5NjY2Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=917885330f3ece39a3194b2812ca7c0e8cc1c93bfcda87409969c0dd45a3c026/dash/live/2093712/219035-321027/manifest-d.mpd
-
-#EXTINF:-1 tvg-id="NOVA SPORTS PL" tvg-name="NOVA SPORTS PL" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",NOVA SPORTS PL ,(Sunderland vs Manchester United)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd
-
-#EXTINF:-1 tvg-id="HUB PREMIER HD" tvg-name="HUB PREMIER HD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",HUB PREMIER HD ,(Sunderland vs Manchester United)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn-1.ttvb.eu.org/api/Hub-Premier-4/index.m3u8
-
-#EXTINF:-1 tvg-id="FUBO SPORTS" tvg-name="FUBO SPORTS" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",FUBO SPORTS ,(Manchester City vs Brentford)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
-
-#EXTINF:-1 tvg-id="SKY SPORTS FHD" tvg-name="SKY SPORTS FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",SKY SPORTS FHD ,(Manchester City vs Brentford)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7a2758575dc04d63acc3573ab594d441:47071dd80de746a38cdc6a4dcde21abc
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://dice-live-oc.akamaized.net/hdntl=exp=1778363892~acl=%2F*~id=2cd8004e-7ae0-43d1-9805-76bc88479344~data=hdntl,aXA9MTA4LjE4MS4zLjE0OSZleHA9MTc3ODI3NzUyMiZlaWQ9OTM5NjY2Jm9pZD0xNTQmdHlwZT1WT0QmdWlkPXhSUnFvOXxiY2FlYTdjZi1jMzM3LTQwMzktODE1OC0zYzFjZTQ5ZTcyOTMmY2lkPWRjZS5maXNmZWQmcHQ9bnVsbA~hmac=917885330f3ece39a3194b2812ca7c0e8cc1c93bfcda87409969c0dd45a3c026/dash/live/2093712/219035-321027/manifest-d.mpd
-
-#EXTINF:-1 tvg-id="UNIVERSO FHD" tvg-name="UNIVERSO FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",UNIVERSO FHD ,(Manchester City vs Brentford)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd
-
-#EXTINF:-1 tvg-id="NOVA SPORTS PL" tvg-name="NOVA SPORTS PL" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",NOVA SPORTS PL ,(Manchester City vs Brentford)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd
-
-#EXTINF:-1 tvg-id="HUB PREMIER HD" tvg-name="HUB PREMIER HD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",HUB PREMIER HD ,(Manchester City vs Brentford)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn-1.ttvb.eu.org/api/Hub-Premier-1/index.m3u8
-
-#EXTINF:-1 tvg-id="UNIVERSO FHD" tvg-name="UNIVERSO FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",UNIVERSO FHD ,(Fulham vs Bournemouth)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=96b67fa09140329a89b7a1ead134eda3:c618d32c56cdc6cad8330eb98507ca3f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s/Live/channel(universo-east)/master.mpd
-
-#EXTINF:-1 tvg-id="HUB PREMIER HD" tvg-name="HUB PREMIER HD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",HUB PREMIER HD ,(Fulham vs Bournemouth)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn-1.ttvb.eu.org/api/Hub-Premier-2/index.m3u8
-
-#EXTINF:-1 tvg-id="HUB PREMIER HD" tvg-name="HUB PREMIER HD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",HUB PREMIER HD ,(Brighton vs Wolverhampton)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://cdn-1.ttvb.eu.org/api/Hub-Premier-3/index.m3u8
-
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="LaLiga 🇪🇸",SportzX MLB ,(Elche vs Deportivo Alavés)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50197/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 🇪🇸",SportzX Live ,(Elche vs Deportivo Alavés)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/16yuitzaerghbhc16.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="LaLiga 🇪🇸",SportzX MLB ,(Sevilla vs Espanyol)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50199/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 🇪🇸",SportzX Live ,(Sevilla vs Espanyol)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/ihfazugfyjcazich17.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="LaLiga 🇪🇸",beIN ENGLISH FHD ,(Atlético Madrid vs Celta Vigo)
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="LaLiga 🇪🇸",beIN ENGLISH FHD ,(Barcelona vs Real Madrid)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 
-#EXTINF:-1 tvg-id="Laliga TV FHD" tvg-name="Laliga TV FHD" group-title="LaLiga 🇪🇸",Laliga TV FHD ,(Atlético Madrid vs Celta Vigo)
+#EXTINF:-1 tvg-id="TSN SPORTS FHD" tvg-name="TSN SPORTS FHD" group-title="LaLiga 🇪🇸",TSN SPORTS FHD ,(Barcelona vs Real Madrid)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=daa8ea92553fd16cd6bfae2b8c582715:4042e041b5639b79b69ae07a872eef9b
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3n6slkgh54/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd
+
+#EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="LaLiga 🇪🇸",PREMIER SPORTS ,(Barcelona vs Real Madrid)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Scottish Premiership",beIN ENGLISH FHD ,(Celtic vs Rangers)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+
+#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="Scottish Premiership",SportDigital Fussball ,(Celtic vs Rangers)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",SportzX Live ,(Burnley vs Aston Villa)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14
+
+#EXTINF:-1 tvg-id="NOVA SPORTS PL" tvg-name="NOVA SPORTS PL" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",NOVA SPORTS PL ,(Nottingham Forest vs Newcastle)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6219/index.mpd
+
+#EXTINF:-1 tvg-id="TELEMUNDO FHD" tvg-name="TELEMUNDO FHD" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",TELEMUNDO FHD ,(Nottingham Forest vs Newcastle)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd
+
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="EPL 🏴󠁧󠁢󠁥󠁮󠁧󠁿",SportzX Live ,(Crystal Palace vs Everton)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14
+
+#EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="LaLiga 🇪🇸",PREMIER SPORTS ,(Mallorca vs Villarreal)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
+
+#EXTINF:-1 tvg-id="Laliga TV FHD" tvg-name="Laliga TV FHD" group-title="LaLiga 🇪🇸",Laliga TV FHD ,(Mallorca vs Villarreal)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 
-#EXTINF:-1 tvg-id="ESPN DEPORTES" tvg-name="ESPN DEPORTES" group-title="LaLiga 🇪🇸",ESPN DEPORTES ,(Atlético Madrid vs Celta Vigo)
+#EXTINF:-1 tvg-id="ESPN DEPORTES" tvg-name="ESPN DEPORTES" group-title="LaLiga 🇪🇸",ESPN DEPORTES ,(Mallorca vs Villarreal)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/
 
-#EXTINF:-1 tvg-id="SportzX MLB" tvg-name="SportzX MLB" group-title="LaLiga 🇪🇸",SportzX MLB ,(Real Sociedad vs Real Betis)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://chatgpt.hereisman.net/playlist/50205/load-playlist?|Referer=https://gooz.aapmains.net
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 🇪🇸",SportzX Live ,(Real Sociedad vs Real Betis)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/bzagLHzach19.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Bundesliga 🇩🇪",ELEVEN SPORTS HD ,(Stuttgart vs Bayer Leverkusen)
+#EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="LaLiga 🇪🇸",PREMIER SPORTS ,(Athletic Club vs Valencia)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
 
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="Bundesliga 🇩🇪",SKY BUNDESLIGA SD ,(Stuttgart vs Bayer Leverkusen)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Bundesliga 🇩🇪",ELEVEN SPORTS HD ,(Wolfsburg vs Bayern München)
+#EXTINF:-1 tvg-id="Laliga TV FHD" tvg-name="Laliga TV FHD" group-title="LaLiga 🇪🇸",Laliga TV FHD ,(Athletic Club vs Valencia)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
+#KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="Bundesliga 🇩🇪",SKY BUNDESLIGA SD ,(Wolfsburg vs Bayern München)
+#EXTINF:-1 tvg-id="ESPN DEPORTES" tvg-name="ESPN DEPORTES" group-title="LaLiga 🇪🇸",ESPN DEPORTES ,(Athletic Club vs Valencia)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/
 
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="Bundesliga 🇩🇪",SKY BUNDESLIGA SD ,(Augsburg vs M'gladbach)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Bundesliga 🇩🇪",ELEVEN SPORTS HD ,(RB Leipzig vs St. Pauli)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
-
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="Bundesliga 🇩🇪",SKY BUNDESLIGA SD ,(RB Leipzig vs St. Pauli)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
-
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="Bundesliga 🇩🇪",SKY BUNDESLIGA SD ,(Hoffenheim vs Werder Bremen)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
-
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Championship 🏴󠁧󠁢󠁥󠁮󠁧󠁿",beIN ENGLISH FHD ,(Middlesbrough vs Southampton)
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="LaLiga 🇪🇸",beIN ENGLISH FHD ,(Real Oviedo vs Getafe)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
 
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Cagliari vs Udinese)
+#EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="LaLiga 🇪🇸",PREMIER SPORTS ,(Real Oviedo vs Getafe)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#KODIPROP:inputstream.adaptive.license_key=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd
 
-#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Cagliari vs Udinese)
+#EXTINF:-1 tvg-id="Laliga TV FHD" tvg-name="Laliga TV FHD" group-title="LaLiga 🇪🇸",Laliga TV FHD ,(Real Oviedo vs Getafe)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
+#KODIPROP:inputstream.adaptive.license_key=620e51b82596475517a27aa425c52280:2b9ba811e9c5aeafc8ae1b71cdca4d6a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/k0duzgfejg/out/v1/70a50b1bda944628b8e7e66ab4069419/cenc.mpd
 
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Lazio vs Inter)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTINF:-1 tvg-id="ESPN DEPORTES" tvg-name="ESPN DEPORTES" group-title="LaLiga 🇪🇸",ESPN DEPORTES ,(Real Oviedo vs Getafe)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+https://smarthard.click/hls/sabrouchespndeportes/index.m3u8|referer=https://hardsmart.click/
 
-#EXTINF:-1 tvg-id="FOX DEPORTES" tvg-name="FOX DEPORTES" group-title="Serie A 🇮🇹",FOX DEPORTES ,(Lazio vs Inter)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
-
-#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Lazio vs Inter)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Lazio vs Inter)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
-
-#EXTINF:-1 tvg-id="TNT SPORTS FHD" tvg-name="TNT SPORTS FHD" group-title="Serie A 🇮🇹",TNT SPORTS FHD ,(Lecce vs Juventus)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=f288380ca4cef9ad3f27a92a08e9bb8b:9f18d26291d9230833501f7f822f6875
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fb6jy4pxts/out/v1/f8fa17f087564f51aa4d5c700be43ec4/cenc.mpd
-
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Lecce vs Juventus)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
-
-#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Lecce vs Juventus)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Lecce vs Juventus)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0:0
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
-
-#EXTINF:-1 tvg-id="FUBO SPORTS" tvg-name="FUBO SPORTS" group-title="Scottish Premiership",FUBO SPORTS ,(Motherwell vs Hearts)
+#EXTINF:-1 tvg-id="FUBO SPORTS FHD" tvg-name="FUBO SPORTS FHD" group-title="Serie A 🇮🇹",FUBO SPORTS FHD ,(Verona vs Como)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=dc69b6159a0f9f0a4e03b3ff91cbacd5:d0dcbcd7723bc40df0bf34c9c092d51f
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/3b7qwiqzk3/out/v1/9f14895badca43e6a716db021dcd0c31/cenc.mpd
 
-#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Scottish Premiership",beIN ENGLISH FHD ,(Motherwell vs Hearts)
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Verona vs Como)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-id="PARAMOUNT+ HD" tvg-name="PARAMOUNT+ HD" group-title="Scottish Premiership",PARAMOUNT+ HD ,(Motherwell vs Hearts)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://livecdn-bp-livestream.rumsport7.live/stream/25/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=135deca1ac7e837a9a959fc4b86c9361&x-time=1778265480
-
-#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Scottish Premiership",COSMOTE Sport HD ,(Motherwell vs Hearts)
+#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Verona vs Como)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd
 
-#EXTINF:-1 tvg-id="ELEVEN SPORTS" tvg-name="ELEVEN SPORTS" group-title="Scottish Premiership",ELEVEN SPORTS ,(Motherwell vs Hearts)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Verona vs Como)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
 
-#EXTINF:-1 tvg-id="DAZN SPORTS IT" tvg-name="DAZN SPORTS IT" group-title="Scottish Premiership",DAZN SPORTS IT ,(Motherwell vs Hearts)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://edge2caster.pro/hls/syaLqucEne4k.m3u8?|Referer=https://streamscenter.online/&Origin=https://streamscenter.online
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Scottish Premiership",SportzX Live ,(Motherwell vs Hearts)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/hd-en-1-4339704.m3u8?txSecret=184e50f5b5cc3d88f446d38c32b8b811&txTime=69FF7F84
-
-#EXTINF:-1 tvg-id="beIN ENGLISH" tvg-name="beIN ENGLISH" group-title="League One 🏴󠁧󠁢󠁥󠁮󠁧󠁿",beIN ENGLISH ,(Stevenage vs Stockport County)
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Cremonese vs Pisa)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="Super Lig",beIN SPORTS SD ,(Galatasaray vs Antalyaspor)
+#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Fiorentina vs Genoa)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://d1yi40sjj0ca0v.cloudfront.net/TVD4071/index.mpd
 
-#EXTINF:-1 tvg-id="FOX DEPORTES" tvg-name="FOX DEPORTES" group-title="Super Lig",FOX DEPORTES ,(Konyaspor vs Fenerbahçe)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Fiorentina vs Genoa)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
+
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Parma vs AS Roma)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
+
+#EXTINF:-1 tvg-id="FOX DEPORTES" tvg-name="FOX DEPORTES" group-title="Serie A 🇮🇹",FOX DEPORTES ,(Parma vs AS Roma)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd
 
-#EXTINF:-1 tvg-id="THMANYAH HD" tvg-name="THMANYAH HD" group-title="Super Lig",THMANYAH HD ,(Konyaspor vs Fenerbahçe)
+#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Parma vs AS Roma)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD1451/index.mpd
+https://d1yi40sjj0ca0v.cloudfront.net/TVD4078/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Super Lig",SportzX Live ,(Konyaspor vs Fenerbahçe)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/sd-1-4532680.m3u8?txSecret=cf4847515657efa4be283426deb6b809&txTime=69FF7354
-
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Super Lig",SportzX Live ,(Beşiktaş vs Trabzonspor)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS" tvg-name="ELEVEN SPORTS" group-title="LaLiga 2",ELEVEN SPORTS ,(AD Ceuta vs CD Castellón)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Parma vs AS Roma)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
 
-#EXTINF:-1 tvg-id="BUNDESLIGA HD [ENG]" tvg-name="BUNDESLIGA HD [ENG]" group-title="LaLiga 2",BUNDESLIGA HD [ENG] ,(AD Ceuta vs CD Castellón)
+#EXTINF:-1 tvg-id="beIN ENGLISH FHD" tvg-name="beIN ENGLISH FHD" group-title="Serie A 🇮🇹",beIN ENGLISH FHD ,(Milan vs Atalanta)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://livecdn-bp-livestream.rumsport7.live/stream/25/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=e2337471e2b71bf507395e416b12ef52&x-time=1778256540
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 2",SportzX Live ,(AD Ceuta vs CD Castellón)
+#EXTINF:-1 tvg-id="TNT SPORTS FHD" tvg-name="TNT SPORTS FHD" group-title="Serie A 🇮🇹",TNT SPORTS FHD ,(Milan vs Atalanta)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=294b5761cefc22d0c6312939e13d8278:52148f1042d238849f0a7813f1da8a7b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/sd-1-4355852.m3u8?txSecret=268640b3db5c146ea05252770e5f2ec6&txTime=69FF5D4F
+https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cllekigzzn/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd
 
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="LaLiga 2",SKY BUNDESLIGA SD ,(AD Ceuta vs CD Castellón)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
-
-#EXTINF:-1 tvg-id="ELEVEN SPORTS" tvg-name="ELEVEN SPORTS" group-title="LaLiga 2",ELEVEN SPORTS ,(Burgos vs Almería)
+#EXTINF:-1 tvg-id="COSMOTE Sport HD" tvg-name="COSMOTE Sport HD" group-title="Serie A 🇮🇹",COSMOTE Sport HD ,(Milan vs Atalanta)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://d1yi40sjj0ca0v.cloudfront.net/TVD6412/index.mpd
+https://d1yi40sjj0ca0v.cloudfront.net/TVD4078/index.mpd
 
-#EXTINF:-1 tvg-id="BUNDESLIGA HD [ENG]" tvg-name="BUNDESLIGA HD [ENG]" group-title="LaLiga 2",BUNDESLIGA HD [ENG] ,(Burgos vs Almería)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Serie A 🇮🇹",ELEVEN SPORTS HD ,(Milan vs Atalanta)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://livecdn-bp-livestream.rumsport7.live/stream/27/chunks.m3u8?is_vip=false&token=397508636a282d0664a97c78856437fa4cf7b893&x-sign=9782805c5c1c79d7a193a5a88d006afd&x-time=1778256480
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 2",SportzX Live ,(Burgos vs Almería)
+#EXTINF:-1 tvg-id="DAZN DE HD" tvg-name="DAZN DE HD" group-title="Bundesliga 🇩🇪",DAZN DE HD ,(Hamburger vs Freiburg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://pul-tenm.nbs3g.com/live/sd-1-4355854.m3u8?txSecret=1c4265c96a232ae4878c29f3dd27dee7&txTime=69FF5D4F
+https://d1yi40sjj0ca0v.cloudfront.net/TVD232/index.mpd
 
-#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="LaLiga 2",SKY BUNDESLIGA SD ,(Burgos vs Almería)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Bundesliga 🇩🇪",ELEVEN SPORTS HD ,(Hamburger vs Freiburg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="LaLiga 2",SportzX Live ,(Real Valladolid vs Real Zaragoza)
+#EXTINF:-1 tvg-id="DAZN DE HD" tvg-name="DAZN DE HD" group-title="Bundesliga 🇩🇪",DAZN DE HD ,(Köln vs Heidenheim)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.vivo200.com/live/sd-1-4344751.m3u8?txSecret=634bbd47f9396006ae2287790d849e72&txTime=69F7859B|Referer=https://player.787200.com/
+https://d1yi40sjj0ca0v.cloudfront.net/TVD212/index.mpd
 
-#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="LaLiga 2",ESPN NL ,(Real Valladolid vs Real Zaragoza)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="Bundesliga 🇩🇪",ELEVEN SPORTS HD ,(Köln vs Heidenheim)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/foxnl1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6411/index.mpd
 
-#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="LaLiga 2",SportDigital Fussball ,(Málaga vs Sporting Gijón)
+#EXTINF:-1 tvg-id="DAZN DE HD" tvg-name="DAZN DE HD" group-title="Bundesliga 🇩🇪",DAZN DE HD ,(Mainz 05 vs Union Berlin)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD232/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(AS Monaco vs Lille)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2083/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(PSG vs Stade Brestois)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2084/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Toulouse vs Olympique Lyonnais)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2085/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Le Havre vs Olympique Marseille)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2086/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Stade Rennais vs Paris FC)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2087/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Auxerre vs Nice)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2088/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Metz vs Lorient)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2089/index.mpd
+
+#EXTINF:-1 tvg-id="LIGUE 1+ HD" tvg-name="LIGUE 1+ HD" group-title="Ligue 1 🇫🇷",LIGUE 1+ HD ,(Angers vs RC Strasbourg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://d1yi40sjj0ca0v.cloudfront.net/TVD2090/index.mpd
+
+#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="Liga Portugal",SportDigital Fussball ,(AVS  vs FC Porto)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
 
-#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="LaLiga 2",ESPN NL ,(Málaga vs Sporting Gijón)
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Liga Portugal",SportzX Live ,(Alverca vs Estoril Praia)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil2/foxnl2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14
 
-#EXTINF:-1 tvg-id="ESPN NL" tvg-name="ESPN NL" group-title="2. Bundesliga",ESPN NL ,(Braunschweig vs Dynamo Dresden)
+#EXTINF:-1 tvg-id="PREMIER SPORTS" tvg-name="PREMIER SPORTS" group-title="Eredivisie",PREMIER SPORTS ,(Feyenoord vs AZ Alkmaar)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd
+
+#EXTINF:-1 tvg-id="SportDigital Fussball" tvg-name="SportDigital Fussball" group-title="Eredivisie",SportDigital Fussball ,(Feyenoord vs AZ Alkmaar)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0ad4080cdff8c60b1233b22087f0b340:285f129c5eca01dd08a5d5a14ad801c8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/ssdefyhkkr/out/v1/cf01290cb7f64525bdf861580a016ca8/cenc.mpd
+
+#EXTINF:-1 tvg-id="ESPN NL SD" tvg-name="ESPN NL SD" group-title="Eredivisie",ESPN NL SD ,(GA Eagles vs PSV Eindhoven)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://instreams.pro/bil2/foxnl4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="ESPN NL SD" tvg-name="ESPN NL SD" group-title="Eredivisie",ESPN NL SD ,(AFC Ajax vs Utrecht)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://instreams.pro/bil2/foxnl3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Bochum vs Hannover 96)
+#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="Eredivisie",SportzX Live ,(Twente vs Sparta)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.vivo200.com/live/sd-1-4366099.m3u8?txSecret=af6bad8225144716a950cc1c553e9a63&txTime=69F7C424|Referer=https://player.787200.com/
+https://video.twimg.com/amplify_video/1919602814160125952/pl/t5p2RHLI21i-hXga.m3u8?variant_version=1&tag=14
 
-#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Bochum vs Hannover 96)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="2. Bundesliga",ELEVEN SPORTS HD ,(Fortuna vs Elversberg)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil1/ligtv2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6414/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Holstein Kiel vs Magdeburg)
+#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="2. Bundesliga",SKY BUNDESLIGA SD ,(Fortuna vs Elversberg)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.vivo200.com/live/sd-1-4366170.m3u8?txSecret=cfcf5234e2b9e6a7f6c0dbf6f03e2412&txTime=69F7C3D9|Referer=https://player.787200.com/
+https://instreams.pro/bil2/bundes2/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
 
-#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Holstein Kiel vs Magdeburg)
+#EXTINF:-1 tvg-id="ELEVEN SPORTS HD" tvg-name="ELEVEN SPORTS HD" group-title="2. Bundesliga",ELEVEN SPORTS HD ,(Hertha BSC vs Greuther Fürth)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0:0
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil1/ligtv3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://d1yi40sjj0ca0v.cloudfront.net/TVD6412/index.mpd
 
-#EXTINF:-1 tvg-id="SportzX Live" tvg-name="SportzX Live" group-title="2. Bundesliga",SportzX Live ,(Nürnberg vs Schalke)
+#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="2. Bundesliga",SKY BUNDESLIGA SD ,(Hertha BSC vs Greuther Fürth)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://live.vivo200.com/live/sd-1-4366152.m3u8?txSecret=84a4537987803c00ab4b71361cc86ca8&txTime=69F7C454|Referer=https://player.787200.com/
+https://instreams.pro/bil2/bundes3/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
 
-#EXTINF:-1 tvg-id="beIN SPORTS SD" tvg-name="beIN SPORTS SD" group-title="2. Bundesliga",beIN SPORTS SD ,(Nürnberg vs Schalke)
+#EXTINF:-1 tvg-id="SKY BUNDESLIGA SD" tvg-name="SKY BUNDESLIGA SD" group-title="2. Bundesliga",SKY BUNDESLIGA SD ,(Münster vs Darmstadt 98)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
-https://instreams.pro/bil1/ligtv1/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+https://instreams.pro/bil2/bundes4/tracks-v1a1/mono.m3u8|referer=https://instream.click/&origin=https://instream.click
+
+#EXTINF:-1 tvg-id="Laliga Hypermotion ES" tvg-name="Laliga Hypermotion ES" group-title="LaLiga 2",Laliga Hypermotion ES ,(Andorra vs Las Palmas)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd
+
+#EXTINF:-1 tvg-id="Laliga Hypermotion ES" tvg-name="Laliga Hypermotion ES" group-title="LaLiga 2",Laliga Hypermotion ES ,(Leganés vs Racing Club)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd
+
+#EXTINF:-1 tvg-id="Laliga Hypermotion ES" tvg-name="Laliga Hypermotion ES" group-title="LaLiga 2",Laliga Hypermotion ES ,(Córdoba vs Granada)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d69894c7b729c5d1e85893e5e6cfcb0f:db0d53f871f5d2ef91d3a112c7ec9f30
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/tcninbbnt5/out/v1/7668f47d28e345979c072e361f3d3ce3/cenc.mpd
+
+#EXTINF:-1 tvg-id="beIN ENGLISH" tvg-name="beIN ENGLISH" group-title="League Two 🏴󠁧󠁢󠁥󠁮󠁧󠁿",beIN ENGLISH ,(Grimsby Town vs Salford City)
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd
