@@ -1,0 +1,25 @@
+name: Auto Update M3U Playlist
+
+on:
+  schedule:
+    # প্রতি ৪ ঘন্টা পর পর স্বয়ংক্রিয়ভাবে আপডেট করবে
+    - cron: '0 */4 * * *'
+  workflow_dispatch: # ম্যানুয়ালি রান করার বাটন
+
+jobs:
+  update-m3u:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Clean M3U From Worker
+        run: |
+          curl -s "https://akash-iptv.samsujjoha12.workers.dev/" -o akash_clean.m3u
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add akash_clean.m3u
+          git diff-index --quiet HEAD || (git commit -m "Auto updated clean playlist" && git push)
