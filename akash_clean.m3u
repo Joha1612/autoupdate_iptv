@@ -48,6 +48,9 @@ https://akash-iptv.samsujjoha12.workers.dev/al_jazeera.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Entertainment",Channel I HD
 https://akash-iptv.samsujjoha12.workers.dev/channel_i_hd.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="Bangla Vision" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1788231546532.png" group-title="Entertainment",Bangla Vision
+https://akash-iptv.samsujjoha12.workers.dev/bangla_vision.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Sports Legends" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770377900139.png" group-title="Sports",Sports Legends
 https://akash-iptv.samsujjoha12.workers.dev/sports_legends.m3u8
 
