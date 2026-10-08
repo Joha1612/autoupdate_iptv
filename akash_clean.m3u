@@ -42,9 +42,6 @@ https://akash-iptv.samsujjoha12.workers.dev/deepto_tv_hd.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NTV" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735560841094.png" group-title="Entertainment",NTV
 https://akash-iptv.samsujjoha12.workers.dev/ntv.m3u8
 
-#EXTINF:-1 tvg-id="" tvg-name="Al Jazeera" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1735547218986.png" group-title="News",Al Jazeera
-https://akash-iptv.samsujjoha12.workers.dev/al_jazeera.m3u8
-
 #EXTINF:-1 tvg-id="" tvg-name="Channel I HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1740567626692.png" group-title="Entertainment",Channel I HD
 https://akash-iptv.samsujjoha12.workers.dev/channel_i_hd.m3u8
 
@@ -59,6 +56,9 @@ https://akash-iptv.samsujjoha12.workers.dev/party_universe.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Thunder Er" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770380791303.png" group-title="Sports",Thunder Er
 https://akash-iptv.samsujjoha12.workers.dev/thunder_er.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="HUM MASALA HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791450396186.png" group-title="Infotainment",HUM MASALA HD
+https://akash-iptv.samsujjoha12.workers.dev/hum_masala_hd.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="Flash Guys HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770378074527.png" group-title="Sports",Flash Guys HD
 https://akash-iptv.samsujjoha12.workers.dev/flash_guys_hd.m3u8
@@ -75,11 +75,26 @@ https://akash-iptv.samsujjoha12.workers.dev/channel_1.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Originals" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770313122372.png" group-title="Movies",Originals
 https://akash-iptv.samsujjoha12.workers.dev/originals.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="HUM TV HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791449757742.png" group-title="Entertainment",HUM TV HD
+https://akash-iptv.samsujjoha12.workers.dev/hum_tv_hd.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="HUM SITARAY HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791450706877.png" group-title="Entertainment",HUM SITARAY HD
+https://akash-iptv.samsujjoha12.workers.dev/hum_sitaray_hd.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Funny Junior HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379573329.png" group-title="Kids",Funny Junior HD
 https://akash-iptv.samsujjoha12.workers.dev/funny_junior_hd.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-name="TRT World HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791450888832.png" group-title="News",TRT World HD
+https://akash-iptv.samsujjoha12.workers.dev/trt_world_hd.m3u8
+
 #EXTINF:-1 tvg-id="" tvg-name="Cineedge HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770347851305.png" group-title="Movies",Cineedge HD
 https://akash-iptv.samsujjoha12.workers.dev/cineedge_hd.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="SATV HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791451187774.png" group-title="Entertainment",SATV HD
+https://akash-iptv.samsujjoha12.workers.dev/satv_hd.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-name="RTV HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1791451312208.png" group-title="Entertainment",RTV HD
+https://akash-iptv.samsujjoha12.workers.dev/rtv_hd.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-name="BuddyStar HD" tvg-logo="https://tstatic.akash-go.com/cms-ui/images/custom-content/1770379038530.png" group-title="Kids",BuddyStar HD
 https://akash-iptv.samsujjoha12.workers.dev/buddystar_hd.m3u8
